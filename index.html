@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="background"></div>
+<div id="hearts"></div>
+
+<!-- ================= HOME ================= -->
+
+<section class="page active" id="home">
+
+    <div class="card">
+
+        <h1>🎂 Happy Birthday 🎂</h1>
+
+        <p>
+            Today is all about you ❤️
+            <br>
+            I made a little surprise...
+        </p>
+
+        <button id="startBtn">
+            Open Gift 🎁
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= QUESTION ================= -->
+
+<section class="page" id="question">
+
+    <div class="card">
+
+        <img
+        src="assets/images/bunny.jpg"
+        class="bunny"
+        alt="Bunny">
+
+        <h2>Before we continue...</h2>
+
+        <p>Are you ready? 😊</p>
+
+        <div class="btn-group">
+
+            <button id="yesBtn">
+                Yes ❤️
+            </button>
+
+            <button id="noBtn">
+                No 😅
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CAKE ================= -->
+
+<section class="page" id="cakePage">
+
+    <div class="card">
+
+        <h2>Make a Birthday Wish ✨</h2>
+
+        <img
+        src="assets/images/cake.webp"
+        class="cake"
+        alt="Cake">
+
+        <button id="wishBtn">
+            Blow Candles 🎂
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= GALLERY ================= -->
+
+<section class="page" id="galleryPage">
+
+    <div class="card">
+
+        <h2>Beautiful Memories ❤️</h2>
+
+        <div class="gallery">
+
+            <img src="assets/images/gallery1.jpeg">
+
+            <img src="assets/images/gallery2.jpeg">
+
+            <img src="assets/images/gallery3.jpeg">
+
+            <img src="assets/images/gallery4.jpeg">
+
+
+        </div>
+
+        <button id="nextBtn">
+            Continue →
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= LETTER ================= -->
+
+<section class="page" id="letterPage">
+
+    <div class="card letter-card">
+
+        <h2>💌 A Letter For You</h2>
+
+        <p id="typing"></p>
+
+        <button id="celebrateBtn">
+            Celebrate 🎉
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= FINAL ================= -->
+
+<section class="page" id="finalPage">
+
+    <div class="card">
+
+        <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+        <h3>
+            May your smile always shine,
+            your dreams come true,
+            and your life be filled with happiness ❤️
+        </h3>
+
+        
+
+    </div>
+
+</section>
+
+<!-- Music -->
+
+<audio id="music" loop>
+
+    <source
+    src="assets/music/birthday.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<!-- Balloons -->
+
+<div class="balloons">
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+</div>
+
+<!-- Floating Hearts -->
+
+<div class="floating-hearts">
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💝</span>
+    <span>💞</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
