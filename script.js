@@ -119,10 +119,8 @@ nextBtn.addEventListener("click",()=>{
 
 // ---------- Birthday Letter ----------
 
-const message = `Happy Birthday ❤️
-
-Vinaya ❤️,
-
+const message = `Happy Birthday Vinaya❤️
+ 
 On your special day, I just want to remind you how precious you are to me. ✨
 Your smile, your love, and your presence make my life more beautiful. ❤️
 
